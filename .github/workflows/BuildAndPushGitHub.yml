@@ -82,7 +82,7 @@ jobs:
       # 8. Deploy no Kubernetes
       - name: Deploy to Kubernetes
         run: |
-          kubectl set image deployment/trusteam trusteam-container=sendxpress/trusteam_${{ env.ENV_LOWER }}:latest
+          kubectl set image deployment/trusteam-deployment trusteam-container=sendxpress/trusteam_${{ env.ENV_LOWER }}:latest
           kubectl rollout restart deployment/app
           kubectl rollout status deployment/app || exit 1
 
