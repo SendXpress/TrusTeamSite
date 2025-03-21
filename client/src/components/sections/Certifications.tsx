@@ -20,8 +20,8 @@ export function Certifications() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {/* Microsoft */}
           <div className="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-            <div className="h-20 w-20 bg-primary-500 flex items-center justify-center rounded-full shadow-md">
-            <img src="/images/microsoft-certified-technology-specialist-125x125.webp" alt="Microsoft Certified" />
+            <div className="h-32 w-32 bg-primary-500 flex items-center justify-center rounded-full shadow-md">
+              <img src="/images/microsoft-certified-technology-specialist-125x125.webp" alt="Microsoft Certified" />
             </div>
             <h3 className="mt-5 text-xl font-semibold text-gray-900">Microsoft</h3>
             <ul className="mt-3 text-gray-600 text-base space-y-1">
@@ -34,7 +34,7 @@ export function Certifications() {
 
           {/* VMware */}
           <div className="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-            <div className="h-20 w-20 bg-primary-500 flex items-center justify-center rounded-full shadow-md">
+            <div className="h-32 w-32 bg-primary-500 flex items-center justify-center rounded-full shadow-md">
               <img src="/images/vcp-1.png" alt="VMware Certified" />
             </div>
             <h3 className="mt-5 text-xl font-semibold text-gray-900">VMware</h3>
@@ -46,8 +46,8 @@ export function Certifications() {
 
           {/* Outras certificações (exemplo) */}
           <div className="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-            <div className="h-20 w-20 bg-primary-500 flex items-center justify-center rounded-full shadow-md">
-            <img src="/images/ISO-27001-2-1.png" alt="ISO-27001" />
+            <div className="h-32 w-32 bg-primary-500 flex items-center justify-center rounded-full shadow-md">
+              <img src="/images/ISO-27001-2-1.png" alt="ISO-27001" />
             </div>
             <h3 className="mt-5 text-xl font-semibold text-gray-900">Segurança</h3>
             <ul className="mt-3 text-gray-600 text-base space-y-1">
