@@ -1,0 +1,91 @@
+name: Build, Scan, Push Docker Image and Deploy to Kubernetes
+
+on:
+  push:
+    branches:
+      - dev
+      - staging
+      - main
+  pull_request:
+    branches:
+      - dev
+      - staging
+      - main
+
+jobs:
+  build-and-deploy:
+    name: Build, Scan Container, Push to Docker Hub, and Deploy to Kubernetes
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout do código
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2. Instalar o cosign (para assinar a imagem, se necessário)
+      - name: Set up cosign
+        uses: sigstore/cosign-installer@main        
+
+      # 3. Definir variáveis de ambiente
+      - name: Set environment variables
+        id: set-env-vars
+        run: |
+          # Define o ambiente com base na branch
+          if [[ "${{ github.ref_name }}" == "main" ]]; then
+            echo "ENV=Production" >> $GITHUB_ENV
+            echo "ENV_LOWER=production" >> $GITHUB_ENV
+          elif [[ "${{ github.ref_name }}" == "dev" ]]; then
+            echo "ENV=Development" >> $GITHUB_ENV
+            echo "ENV_LOWER=development" >> $GITHUB_ENV
+          else
+            echo "ENV=Staging" >> $GITHUB_ENV
+            echo "ENV_LOWER=staging" >> $GITHUB_ENV
+          fi
+
+      # 4. Login no Docker Hub
+      - name: Login to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      # 5. Construir e enviar para o Docker Hub
+      - name: Build and Push to Docker Hub
+        uses: docker/build-push-action@v4
+        env: 
+          ENV: ${{ env.ENV }}
+          ENV_LOWER: ${{ env.ENV_LOWER }}
+        with:
+          context: .
+          push: true
+          tags: |
+            sendxpress/trusteam_${{ env.ENV_LOWER }}:latest
+            sendxpress/trusteam_${{ env.ENV_LOWER }}:${{ github.run_number }}
+          build-args: |
+            ENV=${{ env.ENV }}
+
+      # 6. Assinar a imagem do contêiner
+      - name: Sign container image
+        run: |
+          cosign sign --key env://COSIGN_KEY sendxpress/trusteam_${{ env.ENV_LOWER }}:latest --yes
+        shell: bash
+        env: 
+          COSIGN_KEY: ${{ secrets.COSIGN_KEY }}
+          COSIGN_PASSWORD: ${{ secrets.COSIGN_PASSWORD }}
+
+      # 7. Configurar o kubeconfig
+      - name: Set up Kubernetes
+        uses: azure/k8s-set-context@v1
+        with:
+          kubeconfig: ${{ secrets.KUBE_CONFIG }}
+
+      # 8. Deploy no Kubernetes
+      - name: Deploy to Kubernetes
+        run: |
+          kubectl set image deployment/trusteam trusteam-container=sendxpress/trusteam_${{ env.ENV_LOWER }}:latest
+          kubectl rollout restart deployment/app
+          kubectl rollout status deployment/app || exit 1
+
+      # 9. Verificar os pods no Kubernetes
+      - name: Check Kubernetes Pods
+        run: kubectl get pods -n default
