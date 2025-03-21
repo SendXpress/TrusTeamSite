@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "title": "TrusTeam - Desenvolvimento de Software Empresarial",
+    "description": "Serviços profissionais de desenvolvimento de software incluindo web, mobile e infraestrutura de banco de dados por profissionais certificados pela Microsoft e VMware.",
+    "keywords": "desenvolvimento de software, desenvolvimento web, aplicativos móveis, infraestrutura de banco de dados, certificado Microsoft, VMware"
+  },
+  "common": {
+    "submitting": "Enviando..."
+  },
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "team": "Equipe",
+    "schedule": "Agenda",
+    "contact": "Contato",
+    "getStarted": "Começar"
+  },
+  "hero": {
+    "title1": "Especialistas em Desenvolvimento",
+    "title2": "de Software Empresarial",
+    "description": "Especializado em software web, aplicativos móveis e infraestrutura de banco de dados, com uma equipe de profissionais certificados pela Microsoft e VMware, apoiados por mais de 25 anos de experiência no setor.",
+    "contactButton": "Contate-nos",
+    "waitlistButton": "Entre na Lista"
+  },
+  "certifications": {
+    "title": "Certificações",
+    "description": "Nossa equipe possui certificações oficiais que garantem nosso conhecimento e expertise nas principais tecnologias do mercado.",
+    "microsoft": {
+      "mct": "MCT (Microsoft Certified Trainer)",
+      "mcsa": "MCSA (BI e SQL Server)",
+      "mcp": "MCP (Infraestrutura e Desenvolvimento)",
+      "mcts": "MCTS (Desenvolvimento de Software)"
+    },
+    "vmware": {
+      "vsp": "VSP (VMware Sales Professional)",
+      "vtsp": "VTSP (VMware Technical Sales Professional)"
+    }
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "description": "Soluções abrangentes de software projetadas para as necessidades do seu negócio",
+    "learnMore": "Saiba mais",
+    "items": {
+      "webMobile": {
+        "title": "Desenvolvimento Web e Mobile",
+        "description": "Aplicações escaláveis, seguras e otimizadas para desempenho em todas as plataformas."
+      },
+      "database": {
+        "title": "Bancos de Dados e BI",
+        "description": "Administração de SQL Server, modelagem de dados, dashboards com Power BI e engenharia de dados com Azure."
+      },
+      "cloud": {
+        "title": "Infraestrutura e Cloud",
+        "description": "Especialistas em Windows Server, Active Directory, Cloud Azure e virtualização com VMware."
+      },
+      "finops": {
+        "title": "FINOps",
+        "description": "Redução de custos em armazenamento e processamento de dados, otimização de pipelines e eficiência operacional."
+      },
+      "security": {
+        "title": "Segurança e Conformidade",
+        "description": "Mascaramento e criptografia de dados, conformidade com ISO 27001/2, LGPD e GDPR, relatórios técnicos para aprovação regulatória."
+      }
+    }
+  },
+  "paymentModel": {
+    "title": "Não Corra Riscos:",
+    "titleHighlight": "Pagamento por Entrega",
+    "description": "Estamos comprometidos com a transparência e segurança em cada projeto. Por isso, oferecemos um modelo de pagamento baseado em ondas de entrega, garantindo que cada módulo esteja 100% funcional antes de qualquer pagamento.",
+    "features": {
+      "modules": "Módulos completos e funcionais em cada estágio",
+      "sourceCode": "Opção de fornecimento do código-fonte ou apenas o produto final",
+      "agile": "Desenvolvimento ágil com validações periódicas"
+    },
+    "processTitle": "Nosso Processo de Entrega",
+    "process": {
+      "requirements": "Levantamento de requisitos e planejamento do projeto",
+      "development": "Desenvolvimento de componentes modulares",
+      "validation": "Validação do cliente para cada módulo",
+      "payment": "Pagamento apenas após validação bem-sucedida",
+      "support": "Suporte e manutenção contínuos"
+    }
+  },
+  "team": {
+    "title": "Nossa Equipe",
+    "description": "Conheça nossos profissionais certificados com mais de 25 anos de experiência",
+    "members": {
+      "alvaro": {
+        "name": "Alvaro Augusto de Marco Neto",
+        "position": "Engenheiro Sênior de Software",
+        "certifications": "Certificações MCP MCTS",
+        "experience": "25+ anos de experiência em soluções empresariais"
+      },
+      "leonardo": {
+        "name": "Leonardo Machado",
+        "position": "Engenheiro Sênior de Software",
+        "certifications": "Especialista em desenvolvimento web e mobile",
+        "experience": "Vasta experiência em projetos internacionais"
+      },
+      "antoniojuniorvabreu": {
+      "name": "Antônio Júnior Vieira de Abreu",
+      "position": "Líder de Engenharia DataOps",
+      "certifications": "Especialista em engenharia de dados e pipelines",
+      "experience": "Mais de 10 anos de experiência em DataOps"
+    }
+    }
+  },
+  "appointment": {
+    "title": "Agende uma Consulta",
+    "description": "Reserve uma consulta gratuita com nossos especialistas para discutir as necessidades do seu projeto e explorar possíveis soluções.",
+    "why": {
+      "title": "Por que agendar uma consulta?",
+      "reasons": {
+        "expert": "Obtenha orientação especializada sobre os requisitos do seu projeto",
+        "solutions": "Explore soluções técnicas e possibilidades",
+        "estimate": "Receba uma estimativa preliminar de custo e prazo",
+        "methodology": "Conheça nossa metodologia de entrega",
+        "payModel": "Entenda como funciona nosso modelo de pagamento por entrega"
+      }
+    },
+    "prepare": {
+      "title": "O que preparar:",
+      "items": {
+        "description": "Breve descrição do seu projeto",
+        "requirements": "Requisitos principais e desafios",
+        "timeline": "Considerações de cronograma",
+        "budget": "Expectativas de orçamento (se aplicável)"
+      }
+    },
+    "form": {
+      "title": "Selecione data e hora",
+      "date": "Data",
+      "selectDate": "Selecione uma data",
+      "timeSlots": "Horários disponíveis",
+      "name": "Nome",
+      "namePlaceholder": "Digite seu nome completo",
+      "email": "E-mail",
+      "emailPlaceholder": "seu.email@exemplo.com",
+      "project": "Descrição do Projeto",
+      "projectPlaceholder": "Descreva brevemente as necessidades do seu projeto",
+      "submit": "Agendar Consulta"
+    },
+    "success": {
+      "title": "Consulta Agendada",
+      "description": "Sua consulta foi agendada com sucesso. Entraremos em contato em breve para confirmar."
+    },
+    "error": {
+      "title": "Falha no Agendamento",
+      "description": "Não foi possível agendar sua consulta. Por favor, tente novamente ou entre em contato diretamente conosco."
+    }
+  },
+  "waitlist": {
+    "title": "Entre em Nossa Lista de Espera",
+    "description": "Seja um dos primeiros a acessar nossas novas ofertas de serviços e conteúdo exclusivo.",
+    "form": {
+      "name": "Nome Completo",
+      "namePlaceholder": "Digite seu nome",
+      "email": "Endereço de e-mail",
+      "emailPlaceholder": "seu.email@exemplo.com",
+      "company": "Empresa (Opcional)",
+      "companyPlaceholder": "Nome da sua empresa",
+      "interest": "Interessado Em",
+      "interestPlaceholder": "Selecione uma opção",
+      "interests": {
+        "web": "Desenvolvimento Web",
+        "mobile": "Aplicativos Móveis",
+        "database": "Banco de Dados e BI",
+        "cloud": "Infraestrutura Cloud",
+        "security": "Segurança e Conformidade"
+      },
+      "newsletter": "Inscrever-se na newsletter",
+      "submit": "Entrar na Lista"
+    },
+    "success": {
+      "title": "Adicionado à Lista",
+      "description": "Você foi adicionado com sucesso à nossa lista de espera. Manteremos você atualizado sobre nossas últimas ofertas."
+    },
+    "error": {
+      "title": "Falha no Envio",
+      "description": "Não foi possível adicioná-lo à lista de espera. Por favor, tente novamente ou entre em contato diretamente conosco."
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "description": "Encontre respostas para perguntas comuns sobre nossos serviços e metodologia",
+    "items": {
+      "projects": {
+        "question": "Em quais tipos de projetos vocês se especializam?",
+        "answer": "Nos especializamos em desenvolvimento de software empresarial, incluindo aplicativos web, apps mobile, infraestrutura de banco de dados e soluções cloud. Nossa equipe é especialista em tecnologias Microsoft, SQL Server, Azure e virtualização VMware."
+      },
+      "payment": {
+        "question": "Como funciona seu modelo de pagamento por entrega?",
+        "answer": "Nosso modelo de pagamento é baseado em ondas de entrega, dividindo o projeto em módulos funcionais. Você só paga depois que cada módulo é entregue e validado como 100% funcional. Isso minimiza riscos e garante que você receba valor antes de efetuar pagamentos."
+      },
+      "sourceCode": {
+        "question": "Vocês fornecem o código-fonte dos projetos?",
+        "answer": "Sim, oferecemos opções flexíveis. Você pode escolher receber o código-fonte completo ou apenas o produto final, dependendo das suas necessidades e preferências. Todos os direitos de propriedade intelectual são transferidos de acordo com os termos do contrato."
+      },
+      "certifications": {
+        "question": "Quais certificações sua equipe possui?",
+        "answer": "Nossa equipe possui diversas certificações Microsoft incluindo MCT, MCSA, MCP e MCTS, bem como certificações VMware como VSP e VTSP. Essas certificações validam nossa expertise em desenvolvimento, infraestrutura e tecnologias cloud."
+      },
+      "security": {
+        "question": "Como vocês lidam com segurança de dados e conformidade?",
+        "answer": "Implementamos mascaramento de dados, criptografia e seguimos as melhores práticas para conformidade com ISO 27001/2, LGPD e GDPR. Nossa equipe cria relatórios técnicos detalhados para aprovação regulatória e realiza auditorias de segurança para garantir que seus dados permaneçam protegidos."
+      }
+    }
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "description": "Tem perguntas ou está pronto para iniciar seu projeto? Entre em contato com nossa equipe.",
+    "form": {
+      "name": "Nome completo",
+      "namePlaceholder": "Digite seu nome",
+      "email": "E-mail",
+      "emailPlaceholder": "seu.email@exemplo.com",
+      "phone": "Telefone",
+      "phonePlaceholder": "Seu número de telefone",
+      "subject": "Assunto",
+      "subjectPlaceholder": "Do que se trata?",
+      "message": "Mensagem",
+      "messagePlaceholder": "Conte-nos sobre sua consulta ou necessidades do projeto",
+      "submit": "Enviar Mensagem"
+    },
+    "success": {
+      "title": "Mensagem Enviada",
+      "description": "Sua mensagem foi enviada com sucesso. Responderemos o mais breve possível."
+    },
+    "error": {
+      "title": "Falha no Envio",
+      "description": "Não foi possível enviar sua mensagem. Por favor, tente novamente ou entre em contato diretamente conosco."
+    }
+  },
+  "footer": {
+    "description": "Especialistas em desenvolvimento de software empresarial com mais de 25 anos de experiência e certificações Microsoft e VMware.",
+    "services": "Serviços",
+    "webDev": "Desenvolvimento Web",
+    "mobileDev": "Aplicativos Móveis",
+    "database": "Banco de Dados e BI",
+    "cloud": "Infraestrutura e Cloud",
+    "security": "Segurança e Conformidade",
+    "company": "Empresa",
+    "about": "Sobre",
+    "team": "Equipe",
+    "careers": "Carreiras",
+    "blog": "Blog",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "cookies": "Cookies",
+    "copyright": "Todos os direitos reservados."
+  }
+}

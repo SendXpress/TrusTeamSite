@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "title": "TrusTeam - Enterprise Software Development",
+    "description": "Professional software development services including web, mobile, and database infrastructure by certified Microsoft and VMware professionals.",
+    "keywords": "software development, web development, mobile apps, database infrastructure, Microsoft certified, VMware"
+  },
+  "common": {
+    "submitting": "Submitting..."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "team": "Team",
+    "schedule": "Schedule",
+    "contact": "Contact",
+    "getStarted": "Get started"
+  },
+  "hero": {
+    "title1": "Enterprise Software",
+    "title2": "Development Experts",
+    "description": "Specialized in web software, mobile applications, and database infrastructure with a team of certified Microsoft and VMware professionals backed by over 25 years of experience.",
+    "contactButton": "Contact Us",
+    "waitlistButton": "Join Waitlist"
+  },
+  "certifications": {
+    "title": "Certifications",
+    "description": "Our team holds official certifications that guarantee our knowledge and expertise in the main technologies on the market.",
+    "microsoft": {
+      "mct": "MCT (Microsoft Certified Trainer)",
+      "mcsa": "MCSA (BI & SQL Server)",
+      "mcp": "MCP (Infrastructure & Development)",
+      "mcts": "MCTS (Software Development)"
+    },
+    "vmware": {
+      "vsp": "VSP (VMware Sales Professional)",
+      "vtsp": "VTSP (VMware Technical Sales Professional)"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Comprehensive software solutions designed for your business needs",
+    "learnMore": "Learn more",
+    "items": {
+      "webMobile": {
+        "title": "Web & Mobile Development",
+        "description": "Scalable, secure, and performance-optimized applications for all platforms."
+      },
+      "database": {
+        "title": "Databases & BI",
+        "description": "SQL Server administration, data modeling, Power BI dashboards, and Azure data engineering."
+      },
+      "cloud": {
+        "title": "Infrastructure & Cloud",
+        "description": "Windows Server specialists, Active Directory, Azure Cloud, and VMware virtualization."
+      },
+      "finops": {
+        "title": "FINOps",
+        "description": "Cost reduction in data storage and processing, pipeline optimization, and operational efficiency."
+      },
+      "security": {
+        "title": "Security & Compliance",
+        "description": "Data masking and encryption, ISO 27001/2, LGPD and GDPR compliance, regulatory approval reports."
+      }
+    }
+  },
+  "paymentModel": {
+    "title": "Don't Take Risks:",
+    "titleHighlight": "Pay Per Delivery",
+    "description": "We are committed to transparency and security in every project. That's why we offer a payment model based on delivery waves, ensuring that each module is 100% functional before any payment.",
+    "features": {
+      "modules": "Fully functional modules at each stage",
+      "sourceCode": "Source code or final product options",
+      "agile": "Agile development with periodic validations"
+    },
+    "processTitle": "Our Delivery Process",
+    "process": {
+      "requirements": "Requirements gathering and project planning",
+      "development": "Development of modular components",
+      "validation": "Client validation of each module",
+      "payment": "Payment only after successful validation",
+      "support": "Continuous support and maintenance"
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "Meet our certified professionals with 25+ years of experience",
+    "members": {
+      "alvaro": {
+        "name": "Alvaro Augusto de Marco Neto",
+        "position": "Senior Software Engineer",
+        "certifications": "MCP MCTS certifications",
+        "experience": "25+ years of experience in enterprise solutions"
+      },
+      "leonardo": {
+        "name": "Leonardo Machado",
+        "position": "Senior Software Engineer",
+        "certifications": "Web and mobile development specialist",
+        "experience": "Extensive experience in international projects"
+      },
+      "antoniojuniorvabreu": {
+        "name": "Antônio Júnior Vieira de Abreu",
+        "position": "DataOps Engineer Leader",
+        "certifications": "Specialist in data engineering and pipelines",
+        "experience": "More than 10 years of experience in DataOps"
+      }
+    }
+  },
+  "appointment": {
+    "title": "Schedule a Consultation",
+    "description": "Book a free consultation with our experts to discuss your project needs and explore potential solutions.",
+    "why": {
+      "title": "Why schedule a consultation?",
+      "reasons": {
+        "expert": "Get expert advice on your project requirements",
+        "solutions": "Explore technical solutions and possibilities",
+        "estimate": "Receive a preliminary cost and timeline estimate",
+        "methodology": "Learn about our delivery methodology",
+        "payModel": "Understand how our pay-per-delivery model works"
+      }
+    },
+    "prepare": {
+      "title": "What to prepare:",
+      "items": {
+        "description": "Brief description of your project",
+        "requirements": "Key requirements and challenges",
+        "timeline": "Timeline considerations",
+        "budget": "Budget expectations (if applicable)"
+      }
+    },
+    "form": {
+      "title": "Select a date and time",
+      "date": "Date",
+      "selectDate": "Select a date",
+      "timeSlots": "Available time slots",
+      "name": "Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email",
+      "emailPlaceholder": "your.email@example.com",
+      "project": "Project Description",
+      "projectPlaceholder": "Briefly describe your project needs",
+      "submit": "Schedule Consultation"
+    },
+    "success": {
+      "title": "Appointment Scheduled",
+      "description": "Your consultation has been successfully scheduled. We'll be in touch shortly to confirm."
+    },
+    "error": {
+      "title": "Scheduling Failed",
+      "description": "We couldn't schedule your appointment. Please try again or contact us directly."
+    }
+  },
+  "waitlist": {
+    "title": "Join Our Waitlist",
+    "description": "Be among the first to access our new service offerings and exclusive content.",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email address",
+      "emailPlaceholder": "your.email@example.com",
+      "company": "Company (Optional)",
+      "companyPlaceholder": "Your company name",
+      "interest": "Interested In",
+      "interestPlaceholder": "Select an option",
+      "interests": {
+        "web": "Web Development",
+        "mobile": "Mobile Applications",
+        "database": "Database & BI",
+        "cloud": "Cloud Infrastructure",
+        "security": "Security & Compliance"
+      },
+      "newsletter": "Subscribe to newsletter",
+      "submit": "Join Waitlist"
+    },
+    "success": {
+      "title": "Added to Waitlist",
+      "description": "You've been successfully added to our waitlist. We'll keep you updated on our latest offerings."
+    },
+    "error": {
+      "title": "Submission Failed",
+      "description": "We couldn't add you to the waitlist. Please try again or contact us directly."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Find answers to common questions about our services and methodology",
+    "items": {
+      "projects": {
+        "question": "What types of projects do you specialize in?",
+        "answer": "We specialize in enterprise software development, including web applications, mobile apps, database infrastructure, and cloud solutions. Our team excels in Microsoft technologies, SQL Server, Azure, and VMware virtualization."
+      },
+      "payment": {
+        "question": "How does your pay-per-delivery model work?",
+        "answer": "Our payment model is based on delivery waves, where we divide the project into functional modules. You only pay after each module is delivered and validated as 100% functional. This minimizes risk and ensures you receive value before making payments."
+      },
+      "sourceCode": {
+        "question": "Do you provide source code for the projects?",
+        "answer": "Yes, we offer flexible options. You can choose to receive the complete source code or just the final product, depending on your needs and preferences. All intellectual property rights are transferred according to our contract terms."
+      },
+      "certifications": {
+        "question": "What certifications does your team hold?",
+        "answer": "Our team holds various Microsoft certifications including MCT, MCSA, MCP, and MCTS, as well as VMware certifications like VSP and VTSP. These certifications validate our expertise in development, infrastructure, and cloud technologies."
+      },
+      "security": {
+        "question": "How do you handle data security and compliance?",
+        "answer": "We implement data masking, encryption, and follow best practices for ISO 27001/2, LGPD, and GDPR compliance. Our team creates detailed technical reports for regulatory approval and conducts security audits to ensure your data remains protected."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Have questions or ready to start your project? Get in touch with our team.",
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email",
+      "emailPlaceholder": "your.email@example.com",
+      "phone": "Phone",
+      "phonePlaceholder": "Your phone number",
+      "subject": "Subject",
+      "subjectPlaceholder": "What is this regarding?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your inquiry or project needs",
+      "submit": "Send Message"
+    },
+    "success": {
+      "title": "Message Sent",
+      "description": "Your message has been sent successfully. We'll get back to you as soon as possible."
+    },
+    "error": {
+      "title": "Message Failed",
+      "description": "We couldn't send your message. Please try again or contact us directly."
+    }
+  },
+  "footer": {
+    "description": "Enterprise software development experts with over 25 years of experience and Microsoft & VMware certifications.",
+    "services": "Services",
+    "webDev": "Web Development",
+    "mobileDev": "Mobile Applications",
+    "database": "Database & BI",
+    "cloud": "Infrastructure & Cloud",
+    "security": "Security & Compliance",
+    "company": "Company",
+    "about": "About",
+    "team": "Team",
+    "careers": "Careers",
+    "blog": "Blog",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "copyright": "All rights reserved."
+  }
+}

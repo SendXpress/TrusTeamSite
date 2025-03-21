@@ -1,0 +1,96 @@
+Nombres deseados: 
+DevSphere
+NeuralCode
+ByteForge
+NexusDev
+DigiCraft
+
+
+Todavía no tenemos un logotipo
+
+
+Quiénes Somos
+Somos una empresa especializada en desarrollo de software web, aplicaciones móviles e infraestructura de bases de datos, con un equipo de profesionales certificados por Microsoft y VMware, respaldados por más de 25 años de experiencia en el sector tecnológico.
+Certificaciones
+Nuestro equipo cuenta con certificaciones oficiales que garantizan nuestro conocimiento y expertise en las principales tecnologías del mercado:
+✅ Microsoft
+	•	MCT (Microsoft Certified Trainer)
+	•	MCSA (Microsoft Certified Solutions Associate) en BI y SQL Server
+	•	MCP (Microsoft Certified Professional) en Infraestructura con Windows Server y Desarrollo de Software
+	•	MCTS (Microsoft Certified Technology Specialist) en Desarrollo de Software
+✅ VMware
+	•	VSP (VMware Sales Professional)
+	•	VTSP (VMware Technical Sales Professional)
+Nuestra Experiencia y Servicios
+🖥 Desarrollo Web y Mobile – Aplicaciones escalables, seguras y optimizadas para rendimiento.
+📊 Bases de Datos y BI
+	•	Administración y optimización de SQL Server, Analysis Server, Integration Services
+	•	Modelado de datos, relaciones y dashboards con Power BI
+	•	Ingeniería de datos con Azure Data Factory, Synapse, Databricks y DataLake
+	•	Modelado de pipelines incrementales
+☁ Infraestructura y Cloud Computing
+	•	Especialistas en Windows Server, Active Directory, Redes y Cloud Azure
+	•	Virtualización con VMware
+💰 FINOps – Reducción de costos en almacenamiento y procesamiento de datos, optimización de pipelines y eficiencia operativa.
+🔐 Seguridad y Cumplimiento
+	•	Enmascaramiento y criptografía de datos
+	•	Auditoría previa y conformidad con ISO 27001/2, LGPD y GDPR
+	•	Desarrollo de informes y normativas técnicas para aprobación regulatoria
+No Corra Riesgos: Pago por Entrega
+Nos comprometemos con la transparencia y seguridad en cada proyecto. Por eso, ofrecemos un modelo de pago basado en ondas de entrega, garantizando que cada módulo esté 100% funcional antes de cualquier pago.
+📌 Flexibilidad en la entrega:
+	•	Módulos completos y funcionales en cada etapa
+	•	Opción de suministro del código fuente o solo el producto final
+	•	Desarrollo ágil con validaciones periódicas
+Con esta metodología, minimizamos riesgos y aseguramos que reciba soluciones de alto valor sin incertidumbre.
+Compromiso y Calidad
+Nos enfocamos en ofrecer soluciones personalizadas y alineadas con las necesidades de cada cliente, garantizando alta calidad, seguridad y eficiencia en cada desarrollo.
+📩 Contáctanos y lleva tu proyecto al siguiente nivel con nuestra experiencia y profesionalismo.
+
+
+
+——
+
+
+Estrutura do site: (Em 3 idiomas: Español, Inglés y Portugués
+Estructura del Sitio Web
+Para garantizar un sitio web profesional, claro y funcional, proponemos la siguiente estructura:
+1️⃣ Página Principal (Inicio)
+	•	Resumen de la empresa: Quiénes somos y qué ofrecemos
+	•	Mensaje clave sobre nuestra experiencia y certificaciones
+	•	Breve lista de servicios principales con enlaces a más detalles
+	•	Llamado a la acción (ej.: "Contáctanos para una consulta gratuita")
+2️⃣ Servicios
+	•	Detalles sobre cada servicio ofrecido, organizados por categorías:
+	◦	Desarrollo de Software (Web y Mobile)
+	◦	Infraestructura y Cloud
+	◦	Bases de Datos y BI
+	◦	Seguridad y Cumplimiento
+	◦	FINOps y Optimización de Costos
+	•	Casos de éxito o ejemplos de proyectos realizados
+3️⃣ Nuestro Equipo
+	•	Perfil de cada miembro clave con:
+	◦	Nombre y cargo
+	◦	Certificaciones y especialidades
+	◦	Breve descripción de su trayectoria profesional
+	•	Fotos profesionales opcionales
+4️⃣ Agenda de Citas
+	•	Calendario interactivo para agendar reuniones o consultas
+	•	Integración con Google Calendar, Outlook o Zoom para reservas automáticas
+5️⃣ Contacto
+	•	Formulario para enviar mensajes o solicitar información
+	•	Datos de contacto (teléfono, email, dirección si aplica)
+	•	Enlace directo a WhatsApp o chat en vivo (opcional)
+6️⃣ Blog / Casos de Éxito (Opcional, pero Recomendado)
+	•	Publicaciones sobre tendencias, tecnologías y soluciones innovadoras
+	•	Casos de estudio con proyectos destacados
+	•	Consejos y mejores prácticas en nuestro campo
+7️⃣ Preguntas Frecuentes (FAQ)
+	•	Respuestas a dudas comunes sobre servicios, pagos, plazos de entrega, etc.
+8️⃣ Políticas y Legal
+	•	Aviso de privacidad y protección de datos (LGPD/GDPR)
+	•	Términos y condiciones de contratación
+📌 Notas Adicionales:
+	•	Diseño responsivo y optimizado para móviles
+	•	Integración con redes sociales y LinkedIn
+	•	Optimización SEO para mejor posicionamiento en buscadores
