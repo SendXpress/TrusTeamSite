@@ -83,8 +83,7 @@ jobs:
       - name: Deploy to Kubernetes
         run: |
           kubectl set image deployment/trusteam-deployment trusteam-container=sendxpress/trusteam_${{ env.ENV_LOWER }}:latest
-          kubectl rollout restart deployment/app
-          kubectl rollout status deployment/app || exit 1
+          kubectl rollout status deployment/trusteam-deployment || exit 1
 
       # 9. Verificar os pods no Kubernetes
       - name: Check Kubernetes Pods
