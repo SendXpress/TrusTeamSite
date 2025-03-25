@@ -38,7 +38,7 @@ export function Navbar() {
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
             <span className="text-2xl font-bold text-primary font-['Inter']">
-              <img src="/images/TrusTeam.png" style={{ height: "50px" }} alt="TrusTeam" />
+              <img src="/images/TrusTeam.png" style={{ height: "60px" }} alt="TrusTeam" />
             </span>
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
