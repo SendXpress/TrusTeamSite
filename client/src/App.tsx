@@ -1,4 +1,4 @@
-import { Switch, Route } from "wouter";
+import { Switch, Route, useLocation } from "wouter";
 import { Toaster } from "@/components/ui/toaster";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
@@ -11,7 +11,7 @@ import { useLanguage } from "./hooks/use-language";
 function Router() {
   return (
     <Switch>
-      <Route path="/" component={Home} />
+      <Route path="/:lang?" component={Home} />
       <Route component={NotFound} />
     </Switch>
   );
@@ -20,17 +20,22 @@ function Router() {
 // App com a funcionalidade de idioma usando useLanguage
 function App() {
   const { i18n } = useTranslation();
-  const { language } = useLanguage();
-  
+  const { language, setLanguage } = useLanguage();
+  const [location] = useLocation();
+
   useEffect(() => {
-    // Mudar o idioma sempre que o language mudar e 
-    // garantir que a mudança seja aplicada imediatamente
+    // Extrai o idioma da URL (ex: /es, /en)
+    const langFromUrl = location.split("/")[1] || "en"; // Padrão para "en"
+    
+    if (langFromUrl !== language) {
+      setLanguage(langFromUrl);
+    }
+  }, [location, language, setLanguage]);
+
+  useEffect(() => {
     if (language) {
-      // Forçar a atualização do idioma no i18n e no documento
       i18n.changeLanguage(language);
       document.documentElement.lang = language;
-      
-      // Garantir persistência
       if (typeof window !== 'undefined') {
         localStorage.setItem('language', language);
       }
