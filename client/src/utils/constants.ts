@@ -26,21 +26,21 @@ export const constants = {
       id: 'alvaro',
       name: 'Alvaro Augusto de Marco Neto',
       linkedin: 'www.linkedin.com/in/alvaro-augusto-de-marco-neto-02554a22',
-      email: 'alvaro.neto@trusteam.com.br',
+      email: 'alvaro.neto@trusteam.com.br;alvaro.neto@trusteam.es',
       photo: 'https://randomuser.me/api/portraits/men/42.jpg'
     },
     {
       id: 'leonardo',
       name: 'Leonardo Machado',
       linkedin: 'www.linkedin.com/in/leofmachado',
-      email: 'leonardo.machado@trusteam.com.br',
+      email: 'leonardo.machado@trusteam.com.br;leonardo.machado@trusteam.es',
       photo: 'https://randomuser.me/api/portraits/men/36.jpg'
     },
     {
       id: "antoniojuniorvabreu",
       name: "Antônio Júnior Vieira de Abreu",
       linkedin: "www.linkedin.com/in/antoniojuniorvabreu/",
-      email: "antonio.abreu@email.com", // Altere para o email correto se necessário
+      email: "antonio.junior@trusteam.com.br;antonio.junior@trusteam.com.br", // Altere para o email correto se necessário
       photo: "https://randomuser.me/api/portraits/men/37.jpg", // Certifique-se de adicionar essa imagem ao projeto
     }
   ],
