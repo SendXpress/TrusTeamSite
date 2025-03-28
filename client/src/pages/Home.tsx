@@ -4,6 +4,7 @@ import { Footer } from '@/components/layout/Footer';
 import { Hero } from '@/components/sections/Hero';
 import { Certifications } from '@/components/sections/Certifications';
 import { Services } from '@/components/sections/Services';
+import { ExperienceProjects } from '@/components/sections/ExperienceProjects';
 import { PaymentModel } from '@/components/sections/PaymentModel';
 import { Team } from '@/components/sections/Team';
 import { Appointment } from '@/components/sections/Appointment';
@@ -30,6 +31,7 @@ export default function Home() {
         <Hero />
         <Certifications />
         <Services />
+        <ExperienceProjects />
         <PaymentModel />
         <Team />
         <Appointment />

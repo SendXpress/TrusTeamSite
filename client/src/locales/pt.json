@@ -231,6 +231,14 @@
       "description": "Não foi possível enviar sua mensagem. Por favor, tente novamente ou entre em contato diretamente conosco."
     }
   },
+  
+    "CustomerSuccessStories": {
+      "experience_title": "Projetos Bem-Sucedidos",
+      "experience_description": "Nossos projetos concluídos com sucesso.",
+      "previous": "Anterior",
+      "next": "Próximo"
+    },
+  
   "footer": {
     "description": "Especialistas em desenvolvimento de software empresarial com mais de 25 anos de experiência e certificações Microsoft e VMware.",
     "services": "Serviços",

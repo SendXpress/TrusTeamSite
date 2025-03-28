@@ -231,6 +231,13 @@
       "description": "We couldn't send your message. Please try again or contact us directly."
     }
   },
+    "CustomerSuccessStories": {
+      "experience_title": "Successful Projects",
+      "experience_description": "Our successfully completed projects.",
+      "previous": "Previous",
+      "next": "Next"
+    },
+  
   "footer": {
     "description": "Enterprise software development experts with over 25 years of experience and Microsoft & VMware certifications.",
     "services": "Services",
